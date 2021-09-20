@@ -2,12 +2,12 @@
 
 This exercise is to practice configuring beans.
 
-Domain area is online video hosting. 
-There are [Video](src/main/java/com/epam/rd/autotasks/confbeans/video/Video.java) class to represent metadata of a video, 
-[Channel](src/main/java/com/epam/rd/autotasks/confbeans/video/Channel.java) class representing some collection of videos
+The domain area is online video hosting. 
+There is a [Video](src/main/java/com/epam/rd/autotasks/confbeans/video/Video.java) class to represent metadata of a video, 
+a [Channel](src/main/java/com/epam/rd/autotasks/confbeans/video/Channel.java) class representing some collection of videos
 and a [VideoStudio](src/main/java/com/epam/rd/autotasks/confbeans/video/VideoStudio.java) interface defining interface of video factory.
 
-Here goes description of exercise configurations to create.
+Here goes a description of exercise configurations to create.
 Place them into `com.epam.rd.autotasks.confbeans.config` package.
 
 ### SingletonChannelConfig
@@ -16,7 +16,7 @@ Define three Video beans:
 - How to build a house (pubTime: October, 10 2020, 10:11)
 - How to escape solitude (pubTime: October, 10 2020, 10:12)
 
-At least first ban must have a name "video1".
+At least the first ban must have the name "video1".
 
 Define a channel bean containing those three beans.
 
